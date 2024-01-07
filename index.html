@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    
+
+
+    <!-- start header -->
+    <!-- start nav -->
+    <a href="#top" class="stiked animate__animated animate__shakeY animate__infinite animate__slower"><i class="fa-solid fa-angles-up"></i></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-capitalize" id="top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo_1615286725__63239.webp"></a>
+          <button class="navbar-toggler" 
+          type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+             aria-expanded="false" 
+             aria-label="Toggle navigation">
+             <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex search" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn" onclick="logout() "><a class="nav-link"  href="#"><i class="fa-regular fa-user fs-3"></i> log out</a></button>
+              </li>
+              <li class="nav-item pt-2">
+                <a class="nav-link " href="#"><i class="fa-solid fa-cart-arrow-down fs-3"></i> my cart</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg two d-none d-lg-block text-capitalize">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      All Categories 
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Fashion</a></li>
+                      <li><a class="dropdown-item" href="#">Laptop</a></li>
+                      <li><hr class="dropdown-divider">shop all</li>
+                      <li><a class="dropdown-item" href="#">kitchen</a></li>
+                      <li><a class="dropdown-item" href="#">sports</a></li>
+                      <li><a class="dropdown-item" href="#">decor</a></li>
+                    </ul>
+                  </li>  
+             
+              <li class="nav-item">
+                <a class="nav-link light" href="#">all product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">brand</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link light" href="#">
+                    <i class="fa-solid fa-percent"></i> flash deals</a>
+              </li>
+             
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+      
+    <!-- end nav -->
+     <header class="d-flex align-items-center">
+        <div class="container">
+            <div class="header-content">
+                <h4 class="">new winter collection</h4>
+                <h2>new design</h2>
+                <button class="btn btn-dark rounded-4 mt-5 px-4">
+                    <span class="text-container">
+                      <span class="text">Shop Now</span>
+                    </span>
+                  </button>
+                  
+
+            </div>
+        </div>
+    </header> 
+
+   
+    <!-- end header -->
+
+    <div class="container mt-5">
+      <div class="row pt-5 justify-content-between">
+        <div class="icon-item col-xl-3 col-md-6 col-sm-12 py-5">
+          <i class="fa-solid fa-headset fs-3 text-danger"></i>
+          <h5>24 X 7 Free Support</h5>
+          <h6>Online Support 24/7</h6>
+        </div>
+        <div class="icon-item col-xl-3 col-md-6 col-sm-12 py-5">
+          <i class="fa-solid fa-coins  fs-3 text-warning"></i>
+          <h5>Money Back Guarantee</h5>
+          <h6>100% Secure Payment</h6>
+        </div>
+        <div class="icon-item col-xl-3 col-md-6 col-sm-12 py-5">
+          <i class="fa-solid fa-gifts fs-3 text-danger"></i>
+          <h5>Special Gift Cards</h5>
+          <h6>Give The Perfect Gift</h6>
+        </div>
+        <div class="icon-item col-xl-3 col-md-6 col-sm-12 py-5 ">
+          <i class="fa-solid fa-van-shuttle fs-3 text-success"></i>
+          <h5 class="">Wordworld Shipping</h5>
+          <h6 class="">On Order Over $99</h6>
+        </div>
+      </div>
+      <div class="row mt-5 ">
+        <div class="col-xl-6 col-sm-12 mb-md-2 ">
+          <img class="w-100" src="./img/top-1.jpg" alt="">
+        </div>
+        <div class="col-xl-6 col-sm-12  ">
+          <img class="w-100" src="./img/top-2.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- start products -->
+
+
+
+    
+     <nav class="produt-nav mt-5">
+      <div class="container d-flex justify-content-between pt-5">
+        <!-- <h2 class="border-bottom border-danger pb-3">OUR PRODUCTS</h2> -->
+        
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OUR PRODUCTS
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li onclick="getBestSillilg()"><a  class="dropdown-item"  href="#">BESTSELLING</a></li>
+            <li><a onclick="getFeatured()" class="dropdown-item" id="FEATURED" href="#">FEATURED</a></li>
+            <li><a onclick="getNewArrivals()" class="dropdown-item" id="NEW ARRIVALS" href="#">NEW ARRIVALS</a></li>
+            <li><a onclick="getTopReviewd()" class="dropdown-item" id="TOP REVIEWED" href="#">TOP REVIEWED</a></li>
+          </ul>
+        </div>
+
+      
+
+      </div>
+    </nav> 
+    <div class="container mt-5">
+      <div class="row justify-content-between " id="cartoona">
+        <div class="col-xl-3 col-md-6 product-item BESTSELLING">
+          <img class="w-100" src="./img/29__14786.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>Brownie metal outdoor</h5>
+          <h6>₹41.00</h6>
+        </div>
+        <div class="col-xl-3 col-md-6 product-item">
+          <img class="w-100" src="./img/13__52231.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>Casual Regular Sleeve Solid Women White Top</h5>
+          <h6>₹35.00</h6>
+        </div>
+        <div class="col-xl-3 col-md-6 product-item BESTSELLING">
+          <img class="w-100" src="./img/5__55304.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <h5>Home Decore Folwer pot</h5>
+          <h6>₹20.00</h6>
+        </div>
+        <div class="col-xl-3 col-md-6 product-item">
+          <img class="w-100" src="./img/11__45803.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>New Stylist girls Bag</h5>
+          <h6><del>₹10.00</del> ₹7.00 (You save ₹3.00 )</h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-xl-3 col-md-6">
+          <div class="card">
+            <img src="./img/cate-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h4>Fashion under $300</h4>
+              <a href="">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3  col-md-6">
+          <div class="card">
+            <img src="./img/cate-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h4>Furniture under $450</h4>
+              <a href="">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3  col-md-6">
+          <div class="card">
+            <img src="./img/cate-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h4>Electronic under $400</h4>
+              <a href="">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3  col-md-6">
+          <div class="card">
+            <img src="./img/cate-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h4>Storage under $250</h4>
+              <a href="">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <!-- end products -->
+    <!-- start category -->
+    <div class="container mt-5">
+      <div class="row justify-content-between ">
+        <div class="col-xl-2 col-md-4 cat-item mb-lg-5 mb-md-5 ">
+          <img class="cat-img w-100 h-100" src="./img/categ/5__13803.original.jpg">
+          <button class="btn btn-outline-danger">mobile</button>
+        </div>
+        <div class="col-xl-2 col-md-4 cat-item mb-lg-5 mb-md-5">
+          <img class="cat-img w-100 h-100" src="./img/categ/10__29420.original.jpg">
+          <button class="btn btn-outline-danger">games</button>
+
+        </div>
+        <div class="col-xl-2 col-md-4 cat-item mb-lg-5 mb-md-5">
+          <img class="cat-img w-100 h-100" src="./img/categ/11__86586.original.jpg">
+          <button class="btn btn-outline-danger">shoes</button>
+
+        </div>
+        <div class="col-xl-2 col-md-4 cat-item">
+          <img class="cat-img w-100 h-100" src="./img/categ/12__40365.original.jpg">
+          <button class="btn btn-outline-danger">screen</button>
+
+        </div>
+        <div class="col-xl-2 col-md-4 cat-item">
+          <img class="cat-img w-100 h-100" src="./img/categ/2__31343.original.jpg">
+          <button class="btn btn-outline-danger">clean</button>
+
+        </div>
+      
+
+        
+      </div>
+
+      
+
+    </div>
+    <div class="lightBoxContainer row d-none justify-content-center align-items-center">
+      <div class="lightbox-item col-xl-4 d-flex align-items-center justify-content-between">
+        <i id="prev" class="fa-solid fa-circle-arrow-left"></i>
+        <i id="close" class="fa-solid fa-arrow-right-from-bracket"></i>
+        <i id="next" class="fa-solid fa-circle-arrow-right"></i>
+
+      </div>
+
+    </div>
+   
+    <div class="w-100 mt-5">
+      <img class="w-100" src="./img/offer.jpg" alt="">
+    </div>
+    <!-- end category -->
+    <!-- start new products -->
+    <div class="container mt-5">
+      <h3>NEW PRODUCTS</h3>
+      <div class="row justify-content-between mt-5">
+        <div class="col-xl-3 col-md-6 newProductItem text-center">
+          <img class="w-100" src="./img/32__20398.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>PRINCEWARE Pet 975 ml Bottle</h5>
+          <h6>₹34.95</h6>
+        </div>
+        <div class="col-xl-3  col-md-6 newProductItem text-center">
+          <img class="w-100" src="./img/21__58066.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>ANLG-428-BLUE-BLU Analog Watch - For Men</h5>
+          <h6>₹20.76</h6>
+        </div>
+        <div class="col-xl-3  col-md-6 newProductItem text-center">
+          <img class="w-100" src="./img/20__77833.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>KENT Ace Lite 8 L RO + UF + TDS Water Purifier</h5>
+          <h6>₹30.5</h6>
+        </div>
+        <div class="col-xl-3  col-md-6 newProductItem text-center">
+          <img class="w-100" src="./img/17__14624.jpg" alt="">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <i class="fa-regular fa-star text-warning"></i>
+          <h5>[Sample] Laundry Detergent</h5>
+          <h6>₹40.95</h6>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- end new products -->
+    <!-- start featured product -->
+    <div class="container mt-5">
+      <h3 class="text-uppercase">Featured Products</h3>
+      <div class="row justify-content-around mt-5">
+        <div class="col-xl-5 col-md-5 col-sm-12 feat-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/21__58066.jpg" alt="">
+
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <h5>walking shoes for women</h5>
+              <h5>₹50.95</h5>
+              <hr>
+              <h5>Hurry Up! Offer End In</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-md-5 col-sm-12 feat-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/15__63540 (1).jpg" alt="">
+
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <h5>walking shoes for women</h5>
+              <h5>₹34.95</h5>
+              <hr>
+              <h5>Hurry Up! Offer End In</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end featured product -->
+    <!-- start popular -->
+    <div class="container mt-5">
+      <h3>Most Popular Products</h3>
+      <div class="row mt-5 align-items-center justify-content-between">
+        <div class="col-xl-2 col-md- col-sm-12">
+          <img class="w-100" src="./img/top-banner.jpg" alt="">
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+          <div class="row mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/7__83622.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <h6>Wooden Single chair</h6>
+              <h5>₹225.00</h5>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/16__41938.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <h6>walking shoes for women</h6>
+              <h5>₹50.95</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+          <div class="row mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/19__39638.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <h6>KENT Ace Lite 8 L RO + UF + TDS Water Purifier</h6>
+              <h5>₹200.9</h5>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/9__46284.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <h6> sonta watch for women</h6>
+              <h5>₹50.95</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12 ">
+          <div class="row  mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/1__48678.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-regular fa-star text-warning"></i>
+              <h6>fog linen chamber</h6>
+              <h5>₹49.50</h5>
+            </div>
+          </div>
+          <div class="row  mb-4">
+            <div class="col-xl-5">
+              <img class="w-100" src="./img/13__52231.jpg" alt="">
+            </div>
+            <div class="col-xl-7">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <h6>Casual Regular Sleeve Solid Women White Top</h6>
+              <h5>₹50.95</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end popular -->
+    <!-- start animated bar -->
+    <div class="slider mt-5">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="./img/menufacture-1.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-3.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-4.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-6.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-7.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-8.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-9.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-10.png" alt="">
+          </li>
+          <li>
+            <img src="./img/menufacture-5.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- end animated bar -->
+    <!-- stsrt recent posts -->
+    <div class="container mt-5">
+      <h3>RECENT POSTS</h3>
+      <div class="row justify-content-between mt-5">
+        <div class="col-xl-4">
+          
+          <div class="card" >
+                <img src="./img/10.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">​Vestibulum Condimentum Purus....</p>
+                  <p class="card-text">Vestibulum condimentum purus in ligula pretium, pulvinar blandit felis mollis. Sed mattis, odio a auctor faucibus, purus metus consequat sem, in ultrices orci felis eu risus. Morbi porta orci bibendum mollis imperdiet. Vivamus eget sapien vehicula, ultrices nulla in, sodales nibh. Sed eu luctus diam. Aliquam rutrum commodo fermentum. Integer commodo turpis id tellus interdum, in euismod</p>
+                </div>
+          </div>
+        </div>
+         <div class="col-xl-4">
+          
+          <div class="card" >
+                <img src="./img/7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Sed Suscipit Feugiat Felis Ac Placerat...</p>
+                  <p class="card-text">Donec efficitur ac leo ornare sodales. Aliquam eget neque aliquam, pretium arcu nec, auctor turpis. In euismod interdum lacus, ut auctor velit elementum et. Donec quis malesuada augue. Aenean vitae aliquam sem, id vehicula nisl. Mauris pulvinar consectetur dui, in condimentum eros lacinia ac. In sed faucibus erat. Vivamus eu risus rhoncus, elementum diam eu, maximus eros. Orci varius natoque </p>
+                </div>
+          </div>
+        </div>
+         <div class="col-xl-4">
+          
+          <div class="card">
+                <img src="./img/5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Fusce semper aliquam massa....</p>
+                  <p class="card-text">at ultrices nulla  Fusce semper aliquam massa Fusce semper aliquam massapurus eu nibh. In hac habitasse platea dictumst. Fusce semper Fusce semper aliquam massa  Fusce semper aliquam massaaliquam massa ac fermentum. Vestibulum sed tincidunt odio. Sed suscipit feugiat felis ac placerat. Pellentesque mollis at dui vel euismod. Donec non ipsum tincidunt, gravida justo</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end recent posts -->
+    <!-- start footer -->
+    <footer>
+      <div class="container mt-5">
+        <div class="row pt-5">
+          <div class="col-xl-2">
+           
+            <ul>
+              <li> <h5>NAVIGATE</h5></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Shipping & Returns</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+           <div class="col-xl-2">
+            
+            <ul>
+              <li><h5>INFO</h5></li>
+              <li><a href=""><i class="fa-solid fa-location-dot"></i> Acme Widgets
+                  123 Widget Street
+                  Acmeville, AC 12345
+                  United States of America</a></li>
+              
+              <li><a href=""><i class="fa-solid fa-phone"></i> Call us at 123456789</a></li>
+            </ul>
+          </div>
+           <div class="col-xl-2">
+            
+            <ul>
+              <li><h5>CATEGORIES</h5></li>
+              <li><a href="">Dry Fruits</a></li>
+              <li><a href="">Fabrics</a></li>
+              <li><a href="">Fashion</a></li>
+              <li><a href="">jackets</a></li>
+              <li><a href="">laptop</a></li>
+              <li><a href="">Shop All</a></li>
+            </ul>
+          </div>
+           <div class="col-xl-2">
+            
+            <ul>
+              <li><h5>POPULAR BRANDS</h5></li>
+              <li><a href="">Common Good</a></li>
+              <li><a href="">OFS</a></li>
+              <li><a href="">Sagaform</a></li>
+              <li><a href="">View All</a></li>
+            </ul>
+          </div>
+           <div class="col-xl-4">
+           
+            <ul>
+              <li> <h5>JOIN OUR NEWSLETTER</h5></li>
+              <li><a href="">Get the latest updates on new products and upcoming sales</a></li>
+              <li><div class="input-group">
+              <span class="input-group-text"><i class="fa-solid fa-paper-plane fs-3 text-danger"></i></span>
+              <textarea class="form-control" aria-label="With textarea">your email address</textarea>
+            </div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5 text-center">
+          <div class="col-xl-4">
+            <h5>PAYMENT</h5>
+            <i class="fa-brands fa-cc-paypal fs-1 text-secondary"></i>
+            <i class="fa-brands fa-cc-visa fs-1 text-secondary"></i>
+            <i class="fa-brands fa-cc-mastercard fs-1 text-secondary"></i>
+            <i class="fa-brands fa-cc-discover fs-1 text-secondary"></i>
+            <i class="fa-brands fa-apple-pay fs-1 text-secondary"></i>
+          </div>
+          <div class="col-xl-4 d-flex">
+            <div class="border rounded w-50 p-3 fw-bold bg-body-secondary">
+              <i class="fa-brands fa-google-play fs-3 text-danger"></i>
+              Google Play
+            </div> 
+            <div class="border rounded w-50 p-3 fw-bold bg-body-secondary">
+              <i class="fa-solid fa-mobile-screen-button fs-3 text-danger"></i> App Store
+            </div> 
+          </div>
+          <div class="col-xl-4">
+            <h5>CONNECT WITH US</h5>
+            <i class="fa-brands fa-twitter ms-2 fs-3 text-secondary"></i>
+            <i class="fa-brands fa-facebook ms-2 fs-3 text-secondary"></i>
+            <i class="fa-brands fa-linkedin ms-2 fs-3 text-secondary"></i>
+            <i class="fa-brands fa-youtube ms-2 fs-3 text-secondary"></i>
+            <i class="fa-brands fa-instagram ms-2 fs-3 text-secondary"></i>
+          </div>
+        </div>
+        <div class="text-center mt-3 text-secondary fw-medium">
+          <small>© Cooded by Sara Moawad</small>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+   
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/registration.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

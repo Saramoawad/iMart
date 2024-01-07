@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+</head>
+<body cz-shortcut-listen="true">
+    <span class="d-none" id="username"></span>
+
+    <div class="container">
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-xl-5 main-ui ">
+                <div class="layer-ui   text-center h-100 w-100">
+                    <div class="form-content pt-5 p-5">
+
+                   
+                        <i class="fa-brands fa-shopware mb-2"></i>
+                        <h3 class="fw-bold">iMart</h3>
+                
+                        <input type="text" placeholder="enter your name" class="form-control " id="signupName">
+                        <input type="email" placeholder="enter your email" class="form-control " id="signupEmail">
+                        <input type="password" placeholder="enter  password" class="form-control " id="signupPassword">
+                        <p id="exist"></p>
+
+                        <button onclick="signUp()" class="btn" id="signUp">Sign up</button>
+                        <p class="text-white">you have an account <a href="/login.html" class="me-5 border-bottom">sign in</a></p>
+                        <h4 class="text-white">Or</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+    <script src="./js/registration.js"></script>
+
+</body>
+</html>
